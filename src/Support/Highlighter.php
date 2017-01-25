@@ -29,7 +29,7 @@ class Highlighter
 
         // Case sensitivity
         if (!($this->options['caseSensitive'])) {
-            $pattern .= 'i';
+            $pattern .= 'iu';
             $sl_pattern .= 'i';
         }
 
